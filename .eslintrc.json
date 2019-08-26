@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "extends": "standard",
+  "plugins": [],
+  "rules": {
+    "no-extra-semi": ["error"],
+    "semi": ["error"],
+    "no-trailing-spaces": ["off"],
+    "brace-style": ["off"],
+    "padded-blocks": ["off"],
+    "no-return-assign": ["off"],
+    "no-multiple-empty-lines": ["off"],
+    "one-var": ["off"],
+    "no-lone-blocks": ["off"],
+    "camelcase": ["off"],
+    "no-unexpected-multiline": ["off"],
+    "func-call-spacing": ["off"],
+    "no-tabs": ["off"],
+    "no-new-func": ["off"],
+    "no-unsafe-finally": ["off"]
+  },
+  "globals": {}
+}

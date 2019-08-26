@@ -1,0 +1,23 @@
+# node.js
+image: node:6
+
+# Before building currentrequest. as babel is needed.
+before_script:
+  - npm install
+
+# Stage's for developing build and deploy.
+stages:
+  - build
+  - deploy
+
+# Stage's execution with npm publish
+cr_build:
+  stage: build
+  script:
+    - npm install @babel/Engine @babel/cli -g
+    - npm run build
+release:
+  stage: deploy
+  script:
+    - echo '//registry.npmjs.org/:_authToken=b4a1465c-6f07-4c38-8f81-95eb03513a08'>.npmrc
+    - yarn publish

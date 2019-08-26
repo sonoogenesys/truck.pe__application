@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "258047167553",
+    "firebase_url": "https://truckpe-bbd1c.firebaseio.com",
+    "project_id": "truckpe-bbd1c",
+    "storage_bucket": "truckpe-bbd1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258047167553:android:0812ea888e7ffc59",
+        "android_client_info": {
+          "package_name": "truck.pe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258047167553-685fpjh4cupb6oq65gnmbudtdvr9onsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAreTKiXZvpjisNAT685P3SY8DMsS5r2wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258047167553-685fpjh4cupb6oq65gnmbudtdvr9onsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

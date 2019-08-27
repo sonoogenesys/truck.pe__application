@@ -1,50 +1,6 @@
 import React from 'react';
 import {Dimensions} from 'react-native';
-
 let {height, width} = Dimensions.get('window');
-//console.error(height,width)
-//height = 812
-// export let Size = [
-//     Math.round(height * 0.001 / 10), // : 0
-//     Math.round(height * 0.013 / 10), // : 1
-//     Math.round(height * 0.025 / 10), // : 2
-//     Math.round(height * 0.037 / 10), // : 3
-//     Math.round(height * 0.050 / 10), // : 4
-//     Math.round(height * 0.062 / 10), // : 5
-//     Math.round(height * 0.074 / 10), // : 6
-//     Math.round(height * 0.087 / 10), // : 7
-//     Math.round(height * 0.099 / 10), // : 8
-//     Math.round(height * 0.111 / 10), // : 9
-//     Math.round(height * 0.125 / 10), // : 10
-//     Math.round(height * 0.136 / 10), // : 11
-//     Math.round(height * 0.148 / 10), // : 12
-//     Math.round(height * 0.161 / 10), // : 13
-//     Math.round(height * 0.173 / 10), // : 14
-//     Math.round(height * 0.185 / 10), // : 15
-//     Math.round(height * 0.198 / 10), // : 16
-//     Math.round(height * 0.210 / 10), // : 17
-//     Math.round(height * 0.222 / 10), // : 18
-//     Math.round(height * 0.235 / 10), // : 19
-//     Math.round(height * 0.247 / 10), // : 20
-// ];
-//     Size[25] = Math.round(height * 0.310 / 10) // : 25
-//     Size[30] = Math.round(height * 0.370 / 10) // : 30
-//     Size[35] = Math.round(height * 0.430 / 10) // : 35
-//     Size[40] = Math.round(height * 0.489 / 10) // : 40
-//     Size[45] = Math.round(height * 0.560 / 10) // : 45
-//     Size[50] = Math.round(height * 0.620 / 10) // : 50
-//     Size[55] = Math.round(height * 0.680 / 10) // : 55
-//     Size[60] = Math.round(height * 0.740 / 10) // : 60
-//     Size[65] = Math.round(height * 0.805 / 10) // : 65
-//     Size[70] = Math.round(height * 0.860 / 10) // : 70
-//     Size[75] = Math.round(height * 0.925 / 10) // : 75
-//     Size[80] = Math.round(height * 0.990 / 10) // : 80
-//     Size[85] = Math.round(height * 1.050 / 10) // : 85
-//     Size[90] = Math.round(height * 1.110 / 10) // : 90
-//     Size[95] = Math.round(height * 1.170 / 10) // : 95
-//     Size[100] = Math.round(height * 1.230 / 10) // : 100
-
-
 
 // -------------------------------HEIGHT---------------------------------------
 export let Size = [
@@ -86,6 +42,7 @@ Size[85] = Math.round(height * 1.33 / 10) // : 85
 Size[90] = Math.round(height * 1.41 / 10) // : 90
 Size[95] = Math.round(height * 1.49 / 10) // : 95
 Size[100] = Math.round(height * 1.56 / 10) // : 100
+
 // -------------------------------WIDTH---------------------------------------
 export let widthSize = [
     Math.round(width * 0.01 / 10), // : 0

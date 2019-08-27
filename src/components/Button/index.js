@@ -7,7 +7,7 @@ import React from 'react'; // npm: react.js library.
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'; // npm: react-native library.
 import { TouchableNativeFeedback } from 'react-native-gesture-handler'; // npm: react-native gesture handler.
 import LinearGradient from "react-native-linear-gradient"; // npm: gradient background library.
-
+//import {Size, widthSize} from 'SizeHandler';
 /*
 COMPONENT'S.
  */

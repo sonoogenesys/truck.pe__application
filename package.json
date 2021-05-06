@@ -32,7 +32,7 @@
     "react-navigation": "^3.11.1",
     "rn-sliding-up-panel": "2.3.1",
     "rnpm": "1.9.0",
-    "underscore": "1.9.1"
+    "underscore": "1.12.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
